@@ -2,14 +2,12 @@ package main
 
 import "fmt"
 
-// Размеры дома
 type Dimensions struct {
 	Width  float64
 	Height float64
 	Depth  float64
 }
 
-// Мебель
 type Furniture struct {
 	Name   string
 	Width  float64
@@ -17,7 +15,6 @@ type Furniture struct {
 	Depth  float64
 }
 
-// Бытовая техника
 type Appliance struct {
 	Name   string
 	Width  float64
@@ -25,13 +22,11 @@ type Appliance struct {
 	Depth  float64
 }
 
-// Состав семьи
 type FamilyMember struct {
 	Name string
 	Age  int
 }
 
-// Дом
 type House struct {
 	Size       Dimensions
 	Furnitures []Furniture
