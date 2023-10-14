@@ -46,8 +46,11 @@ func main() {
 			{Name: "Диван", Width: 2, Height: 1, Depth: 0.8},
 			{Name: "Стол", Width: 1.5, Height: 0.7, Depth: 1},
 			{Name: "Стул", Width: 0.5, Height: 0.9, Depth: 0.5},
+			{Name: "Стул", Width: 0.5, Height: 0.9, Depth: 0.5},
+			{Name: "Стул", Width: 0.5, Height: 0.9, Depth: 0.5},
+			{Name: "Стул", Width: 0.5, Height: 0.9, Depth: 0.5},
 			{Name: "Кровать", Width: 2, Height: 0.5, Depth: 1.8},
-			{Name: "Шкаф", Width: 1, Height: 2.2, Depth: 0.6},
+			{Name: "Шкаф", Width: 4, Height: 3, Depth: 1},
 		},
 		Appliances: []Appliance{
 			{Name: "Телевизор", Width: 1.2, Height: 0.8, Depth: 0.1},
@@ -55,6 +58,7 @@ func main() {
 			{Name: "Стиральная машина", Width: 0.6, Height: 0.9, Depth: 0.5},
 			{Name: "Микроволновка", Width: 0.5, Height: 0.3, Depth: 0.4},
 			{Name: "Кондиционер", Width: 1, Height: 0.3, Depth: 0.2},
+			{Name: "Плита", Width: 0.4, Height: 0.1, Depth: 0.5},
 		},
 		Family: []FamilyMember{
 			{Name: "Владислав", Age: 23},
