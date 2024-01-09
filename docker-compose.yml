@@ -1,9 +1,9 @@
 version: '3.3'
 
 services:
-  awesomeProject4:
+  awesomeproject4:
     build: ./
-    command: ./awesome_Project4
+    command: ./awesome_project4
     ports:
       - 8000:8000
     depends_on:
